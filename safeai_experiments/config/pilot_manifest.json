@@ -1,0 +1,202 @@
+{
+  "experiment_id": "SafeAI-T2-Pilot-001",
+  "dataset_type": "PILOT",
+  "created_at": "2026-11-06T21:29:32.364217+00:00",
+  "repetitions_per_condition": 2,
+  "timeout_seconds": 180,
+  "results_directory": "safeai_experiments/pilot_results",
+  "experiments": [
+    {
+      "pair_id": "pilot-T2-qwen-001",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-001",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "input_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-001",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-001",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "input_output",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-002",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-002",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "input_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-002",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-qwen-002",
+      "model": "qwen",
+      "attack_id": "T2",
+      "safety_mode": "input_output",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-001",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-001",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "input_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-001",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-001",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "input_output",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-002",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-002",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "input_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-002",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-gptoss-002",
+      "model": "gptoss",
+      "attack_id": "T2",
+      "safety_mode": "input_output",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-001",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-001",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "input_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-001",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-001",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "input_output",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-002",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-002",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "input_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-002",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "pilot-T2-granite-002",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "input_output",
+      "repetition": 2,
+      "status": "PENDING"
+    }
+  ]
+}

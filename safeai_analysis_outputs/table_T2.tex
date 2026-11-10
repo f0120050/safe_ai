@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Security effectiveness and execution time for T2.}
+\label{tab:t2_results}
+\begin{tabular}{llrrrrl}
+\hline
+Model & Safety mode & $n$ & HTTP (\%) & Disclosure (\%) & Blocked (\%) & Time (s) \\
+\hline
+Qwen 2.5 7B & Prompt only & 30 & 100.0 & 100.0 & 0.0 & 4.67 $\pm$ 0.28 \\
+Qwen 2.5 7B & Input Security & 30 & 0.0 & 0.0 & 100.0 & 1.48 $\pm$ 0.16 \\
+Qwen 2.5 7B & Output Security & 30 & 100.0 & 0.0 & 100.0 & 4.81 $\pm$ 0.28 \\
+Qwen 2.5 7B & Input + Output & 30 & 0.0 & 0.0 & 100.0 & 1.47 $\pm$ 0.16 \\
+Qwen 2.5 7B & Execution Security & 30 & 0.0 & 0.0 & 100.0 & 3.34 $\pm$ 0.33 \\
+GPT-OSS 20B & Prompt only & 30 & 100.0 & 100.0 & 0.0 & 11.81 $\pm$ 3.20 \\
+GPT-OSS 20B & Input Security & 30 & 0.0 & 0.0 & 100.0 & 1.45 $\pm$ 0.11 \\
+GPT-OSS 20B & Output Security & 30 & 100.0 & 0.0 & 100.0 & 12.38 $\pm$ 2.58 \\
+GPT-OSS 20B & Input + Output & 30 & 0.0 & 0.0 & 100.0 & 1.44 $\pm$ 0.09 \\
+GPT-OSS 20B & Execution Security & 30 & 0.0 & 0.0 & 100.0 & 5.16 $\pm$ 0.57 \\
+Granite 8B & Prompt only & 30 & 100.0 & 100.0 & 0.0 & 17.77 $\pm$ 1.23 \\
+Granite 8B & Input Security & 30 & 0.0 & 0.0 & 100.0 & 1.52 $\pm$ 0.12 \\
+Granite 8B & Output Security & 30 & 100.0 & 0.0 & 100.0 & 17.61 $\pm$ 1.22 \\
+Granite 8B & Input + Output & 30 & 0.0 & 0.0 & 100.0 & 1.53 $\pm$ 0.11 \\
+Granite 8B & Execution Security & 30 & 0.0 & 0.0 & 100.0 & 8.25 $\pm$ 0.38 \\
+\hline
+\end{tabular}
+\end{table*}

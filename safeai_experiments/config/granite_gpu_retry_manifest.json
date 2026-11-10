@@ -1,0 +1,41 @@
+{
+  "experiment_id": "SafeAI-Granite-GPU-Retry-001",
+  "dataset_type": "TECHNICAL_RETRY",
+  "created_at": "2026-11-06T22:32:31.499992+00:00",
+  "timeout_seconds": 180,
+  "results_directory": "safeai_experiments/retry_results/granite_gpu",
+  "experiments": [
+    {
+      "pair_id": "retry-gpu-T2-granite-001",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "retry-gpu-T2-granite-001",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 1,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "retry-gpu-T2-granite-002",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "prompt_only",
+      "repetition": 2,
+      "status": "PENDING"
+    },
+    {
+      "pair_id": "retry-gpu-T2-granite-002",
+      "model": "granite",
+      "attack_id": "T2",
+      "safety_mode": "output_only",
+      "repetition": 2,
+      "status": "PENDING"
+    }
+  ]
+}

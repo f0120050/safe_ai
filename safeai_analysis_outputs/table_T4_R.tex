@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{T4-R post-execution recovery and incident notification results across three LLMs. Notifications are simulated.}
+\label{tab:t4_recovery_results}
+\begin{tabular}{lrrrrrl}
+\hline
+Model & $n$ & PUT (\%) & Verified restoration (\%) & Rollback (\%) & Notification (\%) & Time (s) \\
+\hline
+Qwen 2.5 7B & 30 & 100.0 & 100.0 & 100.0 & 100.0 & 7.34 $\pm$ 0.41 \\
+GPT-OSS 20B & 30 & 100.0 & 100.0 & 100.0 & 100.0 & 20.24 $\pm$ 1.99 \\
+Granite 8B & 30 & 100.0 & 100.0 & 100.0 & 100.0 & 20.09 $\pm$ 2.65 \\
+\hline
+\end{tabular}
+\end{table*}

@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Security effectiveness and execution time for T4.}
+\label{tab:t4_results}
+\begin{tabular}{llrrrrl}
+\hline
+Model & Safety mode & $n$ & HTTP (\%) & State change (\%) & Blocked (\%) & Time (s) \\
+\hline
+Qwen 2.5 7B & Prompt only & 30 & 100.0 & 100.0 & 0.0 & 7.37 $\pm$ 0.43 \\
+Qwen 2.5 7B & Input Security & 30 & 0.0 & 0.0 & 100.0 & 1.38 $\pm$ 0.09 \\
+Qwen 2.5 7B & Execution Security & 30 & 0.0 & 0.0 & 100.0 & 2.73 $\pm$ 0.20 \\
+GPT-OSS 20B & Prompt only & 30 & 100.0 & 100.0 & 0.0 & 38.22 $\pm$ 30.13 \\
+GPT-OSS 20B & Input Security & 30 & 0.0 & 0.0 & 100.0 & 1.63 $\pm$ 0.22 \\
+GPT-OSS 20B & Execution Security & 30 & 0.0 & 0.0 & 100.0 & 15.20 $\pm$ 7.02 \\
+Granite 8B & Prompt only & 30 & 100.0 & 100.0 & 0.0 & 21.96 $\pm$ 4.00 \\
+Granite 8B & Input Security & 30 & 0.0 & 0.0 & 100.0 & 1.61 $\pm$ 0.10 \\
+Granite 8B & Execution Security & 30 & 0.0 & 0.0 & 100.0 & 7.53 $\pm$ 0.23 \\
+\hline
+\end{tabular}
+\end{table*}
